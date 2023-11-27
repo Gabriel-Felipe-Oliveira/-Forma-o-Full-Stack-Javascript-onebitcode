@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalador de Jogadores</title>
+    <style>
+        /* Adicione estilos conforme necessário */
+    </style>
+</head>
+<body>
+    <h1>Escalador de Jogadores</h1>
+
+    <!-- Formulário de Escalação -->
+    <h2>Escalar Jogador</h2>
+    <label for="posicao">Posição:</label>
+    <input type="text" id="posicao">
+    <br>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome">
+    <br>
+    <label for="numero">Número da Camisa:</label>
+    <input type="text" id="numero">
+    <br>
+    <button onclick="escalarJogador()">Escalar</button>
+
+    <!-- Lista de Jogadores Escalados -->
+    <h2>Jogadores Escalados</h2>
+    <ul id="listaJogadores"></ul>
+
+    <!-- Formulário de Remoção -->
+    <h2>Remover Jogador</h2>
+    <label for="numeroRemover">Número da Camisa:</label>
+    <input type="text" id="numeroRemover">
+    <br>
+    <button onclick="removerJogador()">Remover</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
