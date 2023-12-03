@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+   
+    <title>Jogo da Velha</title>
+</head>
+<body>
+
+    
+
+<main data-theme = "dark">
+
+    <table class="table-master">
+    <tr><td><h1>Jogo da Velha</h1></td></tr>
+    <tr> <td> <label for="player1">Nome do Jogador 1:</label> <input type="text" id="player1" placeholder="Jogador 1"></td> </tr>                                 </tr>
+    
+    
+
+    <tr><td><label for="player2">Nome do Jogador 2:</label><input type="text" id="player2" placeholder="Jogador 2"></td></tr>
+    <tr><td><div id="turn">Vez de: <span id="currentPlayer"></span></div></td></tr>
+
+    <tr><td><div id="board"></div> <div id="result"></div> </td></tr>
+
+   <tr><td><button id="restart">Reiniciar Jogo</button></td></tr> 
+
+   <tr><td><button id="themeSwitcher">Switch Theme Dark/Light</button></td></tr>
+    </table>
+
+    
+
+   
+
+    <script src="index.js"></script>
+
+    
+</main>
+</body>
+</html>
