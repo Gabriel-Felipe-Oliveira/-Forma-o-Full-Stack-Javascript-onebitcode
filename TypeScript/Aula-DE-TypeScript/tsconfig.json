@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+      "outFile": "Aula-DE-TypeScript/main.js",
+      "target": "ESNext"
+    }
+  }

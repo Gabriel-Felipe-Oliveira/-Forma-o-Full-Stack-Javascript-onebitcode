@@ -1,9 +1,6 @@
 {
   "description": "",
-  "dependencies": {
-    "json-server": "^0.17.4"
-  },
-  "cripts": {
-  "json-server": "json-server --watch db.json"
+  "scripts": {
+    "json-server": "json-server --watch db.json"
   }
 }
