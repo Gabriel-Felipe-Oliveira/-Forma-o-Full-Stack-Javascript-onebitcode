@@ -25,7 +25,7 @@ function Log() {
   
     constructor(name: string) {
       this.name = name
-    }
+    }q
   
     @Log()
     calculate(value: number) {
