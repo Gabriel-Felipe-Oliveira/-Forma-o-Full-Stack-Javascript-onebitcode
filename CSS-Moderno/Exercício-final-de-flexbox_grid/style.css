@@ -1,0 +1,41 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 30px;
+}
+  
+.container {
+    background-color: darkgray;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    gap: 10px 15px;
+    grid-auto-rows: minmax(310px, auto);
+}
+
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+.buttons{
+    padding: 10px;
+    display: flex;
+  gap: 10px;
+
+
+}
+
+.logo-onebitcode {
+    padding-left: 30px;
+    width: 200px;
+}
