@@ -1,0 +1,15 @@
+.btn, .btn-roxo {
+  width: 150px;
+  height: 50px;
+  background: none;
+  border-radius: 20px;
+}
+.btn.btn-amarelo, .btn-amarelo.btn-roxo {
+  background-color: yellow;
+}
+
+.btn-roxo {
+  background-color: purple;
+}
+
+/*# sourceMappingURL=style.css.map */
